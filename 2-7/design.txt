@@ -1,0 +1,40 @@
+//
+//inputA: a->b->c->d->e->f->_
+//inputB: z->d->e->f->_->_->_
+
+//O(n^2)
+//for each in inputA
+//for each in inputB
+//if &inputA[k] == &inputB[j]
+//return inputA[k]
+
+////------
+
+//base case
+//if thisA.Next() == nil && thisB.Next() == nil {
+	//if &thisA == &thisB {
+		//return &thisA
+	//}
+//}
+
+//nextA = try next A else stay same
+//nextB = try next B else stay same
+
+//intersection := call(nextA, nextB)
+
+//if intersection == nil return nil
+
+if &intersection == &thisA; return thisB
+if &intersection == &thisB; return thisA
+&intersection is the first interescting node, return &interescting
+
+
+
+
+
+f f
+e f f
+d f e
+c e
+b d
+a z
